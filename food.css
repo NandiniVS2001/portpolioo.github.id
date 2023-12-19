@@ -1,0 +1,46 @@
+
+
+h1{
+    text-align:left;
+    color: green;
+    padding: 35px;
+
+}
+nav{
+    background-color: lime;
+    display: grid;
+    place-items: center;
+
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    transform: 0.2s ease-in;
+    font-size: 19px;
+    font-style: italic;
+
+}
+nav ul a:hover{
+    background-color: green;
+    color: white;
+}
+div img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid brown;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px black;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+div img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+
+}
